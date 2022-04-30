@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Badr;
+    src: url(../assets/fonts/Far.Badr.ttf);
+}
+
+@font-face {
+    font-family: Mj_Farsi;
+    src: url(../assets/fonts/Mj_Farsi\ Normal.ttf);
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(../assets/images/Hamgardi_0349zvzbc89_resize.jpg) no-repeat center / cover;
+    min-height: 100vh;
+    color: #fff;
+    font-family: Badr;
+    direction: rtl;
+}
+
+.welcome {
+    font-size: 5rem;
+    text-align: right;
+}
+
+.card-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/images/4914babaf5b441e0a33c21ed9abf1b1a.jpg.crdownload) no-repeat center / cover;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+.bgcolor {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#rhum {
+    font-size: 25px;
+    text-align: center;
+    font-family: Mj_Farsi;
+    margin-top: 15px;
+}
+
+#meaning {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Badr;
+    color: #00ff00;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#fall {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    line-height: 1.4;
+    padding: 0.25em;
+    margin-left: 100%;
+}
+
+.my-btn {
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    width: 100%;
+}
+
+.my-btn:hover {
+    text-decoration: none;
+}
+
+.my-btn-1 {
+    border: 1px solid;
+    outline: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.my-btn-1:hover {
+    border: 1px solid;
+    outline-offset: 15px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 2px #427388;
+}
